@@ -4,14 +4,54 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    .btn {
+      border-color: teal;
+      color: teal;
+    }
+
+    .btn:hover {
+      background-color: teal;
+      color: white;
+    }
+
+    .container {
+      padding-top: 65px;
+      margin-right: 15%;
+    }
+
+    .p-4 {
+      background: #F9FBFB;
+    }
+
+    .h6 {
+      font-size: 18px;
+    }
+
+    .snippet {
+      padding-right: 20%;
+    }
+
+    @media only screen and (max-width: 1450px) {
+      .container {
+        padding-left: 86px;
+        margin-right: 0%;
+      }
+    }
+
+    .card {
+      border-color: transparent;
+    }
+
+    .card-btn {
+      margin-bottom: 28px !important;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -30,21 +70,284 @@
           </span>
         </div>
       </a>
-      <img src="./assets/images/login.png" alt="logo" class="img-fluid mr-sm-2" height="40px" width="40px" />
+      <img src="./assets/images/login.png" alt="logo" class="img-fluid mr-sm-2" height="40px" width="40px">
     </div>
   </div>
   <div class="container">
-      <h2>Content Store</h2>
-      <div class="p-4">
-        <h6>
+    <h2>Content Store</h2>
+    <div class="p-4">
+      <h6>
         Got bulk orders or almost similar orders ? Fill the order brief in an excel sheet
-        </h6>
-        <p>
-            If you're wondering about an easy way to place orders in large numbers, we provide a way customized just for that. Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help, <a href="#">we are just a click away to assist you in placing your order</a>
-        </p>
-        <button class="btn my-sm-0">
-          Order via Excel Sheet
-        </button>
+      </h6>
+      <p class="snippet">If you're wondering about an easy way to place orders in large numbers, we provide a way
+        customized just for that. Download our excel sheet, and fill the order brief in the prescribed format and
+        submit. In case you need any help, <a href="#">we are just a click away to assist you in placing your order</a>
+      </p>
+      <button class="btn my-sm-0">
+        Order via Excel Sheet
+      </button>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Blog/Article</strong>
+                <br>
+                from &#8377;500
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Newsletter/E-mailer</strong>
+                <br>
+                from &#8377;1000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Whitepaper</strong>
+                <br>
+                from &#8377;2000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>e-book</strong>
+                <br>
+                from &#8377;1000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4 m-center">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p class="m-center">
+                <strong>Report/Guide</strong>
+                <br>
+                from &#8377;1000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Product Description</strong>
+                <br>
+                from &#8377;500
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Website Content</strong>
+                <br>
+                from &#8377;1000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Video Script</strong>
+                <br>
+                from &#8377;1000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-8 col-xs-8">
+              <p>
+                <strong>Company Profile/ Brochure</strong>
+                <br>
+                from &#8377;2000
+              </p>
+            </div>
+            <div class="col-lg-11 col-xs-10 mx-auto">
+              <p>
+                Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                customers to users
+              </p><br>
+              <button class="btn my-sm-0 card-btn">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./assets/images/Capture.JPG" alt="user" class="img-fluid rounded-circle"
+                  style="padding-top: 15px">
+              </div>
+              <div class="col-lg-8 col-xs-8">
+                <p>
+                  <strong>Press Release</strong>
+                  <br>
+                  from &#8377;2000
+                </p>
+              </div>
+              <div class="col-lg-11 col-xs-10 mx-auto">
+                <p>
+                  Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective
+                  customers to users
+                </p><br>
+                <button class="btn my-sm-0 card-btn">
+                  Order
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 </body>
+
 </html>
