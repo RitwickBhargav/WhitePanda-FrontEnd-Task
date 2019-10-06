@@ -9,7 +9,7 @@ body {
   width: 100px;
   position: fixed;
   z-index: 1;
-  top: 56px;
+  top: 62px;
   left: 0;
   overflow-x: hidden;
   padding-top: 20px;
@@ -37,16 +37,6 @@ body {
 .fa-search:hover,
 .fa-home:hover {
   color: teal;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
 }
 
 .topnav {
@@ -90,10 +80,55 @@ div, img {
 }
 
 img {
-  padding: 3px 15px 3px 3px;
+  padding: 5px 3px 3px 0px;
 }
 
 .navbar-custom {
 	box-shadow: 0 0.02rem 0.5rem 0 rgba(0, 0, 0, 0.2);
 	padding: 0px;
+}
+
+.btn {
+  border-color: teal !important;
+  color: teal !important;
+}
+
+.btn:hover {
+  background-color: teal !important;
+  color:white !important;
+}
+
+h2 {
+  padding-bottom: 65px;
+}
+
+.container {
+  padding-top: 65px !important;
+  margin:0px;
+  float:right;
+  margin-right: 15% !important;
+}
+
+.h2 {
+  padding-bottom: 65px;
+}
+
+.p-4 {
+  background: #F9FBFB !important;
+}
+
+h6 {
+  color: teal;
+  font-size: 18px !important;
+}
+
+p {
+  color: #969696;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding-left: 110px !important;
+    margin-right: 0% !important;
+  }
 }
