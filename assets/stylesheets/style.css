@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 .sidenav {
   font-size: 30px;
   height: 100%;
@@ -35,6 +38,7 @@
 }
 
 .topnav {
+  top: 0;
   overflow: hidden;
   background-color: #ffffff;
   position: fixed;
@@ -56,6 +60,10 @@
 
 .fa-bell:hover {
   color: teal;
+}
+
+.mr-sm-2 {
+  margin-right: 14px;
 }
 
 #ex4 .p1[data-count]:after{
@@ -124,6 +132,10 @@ h6 {
   .card {
     box-shadow: 0px 0px 16px rgba(0, 128, 128, 0.11);
   }
+
+  .footer-text {
+    margin-left: 40px;
+  }
 }
 
 .card:hover {
@@ -151,6 +163,18 @@ h6 {
   margin-top: 10px;
 }
 
+.last {
+  margin-right: 60%;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.icon:hover {
+  color: teal;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -161,5 +185,9 @@ h6 {
 
   .m-center {
     align-content: center;
+  }
+
+  .last {
+    margin-right: 0%;
   }
 }
