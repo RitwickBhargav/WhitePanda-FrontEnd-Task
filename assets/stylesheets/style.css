@@ -34,6 +34,11 @@ body {
   padding-top: 25%;
 }
 
+.fa-search:hover,
+.fa-home:hover {
+  color: teal;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
