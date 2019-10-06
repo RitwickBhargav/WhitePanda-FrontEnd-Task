@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#ex4 .p1[data-count]:after{
+  position:absolute;
+  right:10%;
+  top:8%;
+  content: attr(data-count);
+  font-size:40%;
+  padding:.4em;
+  border-radius:50%;
+  line-height:1em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width: 1em;
+}
+
+.logo {
+  padding: 14px 106px;
+}
+
+div, img {
+  padding: 3px;
+}
+
+img {
+  padding: 3px 106px 3px 3px;
+}
+
+.navbar-custom {
+	box-shadow: 0 0.02rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+	padding: 0px;
+}
