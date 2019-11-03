@@ -86,29 +86,26 @@ body {
 }
 
 div, img {
-  padding: 3px;
+  padding: 2px;
 }
 
 img {
   padding: 5px 3px 3px 0px;
 }
 
-.navbar-custom {
+.sidenav, .topnav {
 	box-shadow: 0 0.02rem 0.5rem 0 rgba(0, 0, 0, 0.2);
 	padding: 0px;
 }
 
 h2 {
   padding-bottom: 65px;
+  font-size: xx-large;
 }
 
 .container {
   margin:5% 0% 0% 0%;
   float:right;
-}
-
-.h2 {
-  padding-bottom: 65px;
 }
 
 h6 {
@@ -149,10 +146,10 @@ h6 {
 
 .column {
   float: left;
-  width: 28%;
+  width: 25%;
   padding: 0 10px;
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 4%;
+  margin-left: 4%;
 }
 
 .img-fluid {
@@ -175,9 +172,8 @@ h6 {
   color: teal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
-    width: 100%;
     display: block;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -189,5 +185,15 @@ h6 {
 
   .last {
     margin-right: 0%;
+  }
+
+  .p-4 {
+    margin-right: 0% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100% !important;
   }
 }
